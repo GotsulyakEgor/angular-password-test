@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="col mt-5 col-xs-6 col-md-6 col-lg-6">
+    <h2>Check Password Strength</h2>
+    <br>
+    <form [formGroup]="myForm">
+      <div class="form-group">
+        <input type="password" class="form-control" autocomplete="off" placeholder="Password"
+               [(ngModel)]="password" formControlName="password">
+      </div>
+    </form>
+    <div class="strength">
+      <ul class="strengthBar">
+        <li class="point" [style.background-color]="bar0"></li>
+        <li class="point" [style.background-color]="bar1"></li>
+        <li class="point" [style.background-color]="bar2"></li>
+      </ul>
+      <h3 class="password-strength">{{strength}}</h3>
+    </div>
+  </div>
+</div>

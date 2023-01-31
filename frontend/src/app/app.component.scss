@@ -1,0 +1,54 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.container {
+  margin-top: 15%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.col {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-control {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.strengthBar {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: 2px;
+}
+
+.point:last-of-type {
+  margin: 0 !important;
+}
+
+.point {
+  background: #DDD;
+  border-radius: 2px;
+  display: inline-block;
+  height: 7px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.password-strength {
+  margin: 20px auto;
+  padding: 5px;
+  width: 200px;
+  text-transform: uppercase;
+  border: solid 3px black;
+  border-radius: 30px;
+}
